@@ -1,0 +1,113 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #d0d0ce;
+  min-height: 100vh;
+}
+.main-card {
+  display: flex;
+  justify-content: center;
+ 
+ 
+}
+.container {
+  width: 60%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+input, select {
+  border: none;
+  border-bottom: 1px solid #d0d0ce;
+  margin-bottom: 5px;
+  width: 95%;
+  padding: 10px 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  
+
+}
+/* input:required, select:required {
+  box-shadow: none;
+} */
+
+.iframe{
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.form-btn {
+  border-radius: 2px;
+  margin: 10px 0;
+  width: 95%;
+  padding: 10px 5px;
+  background-color:white ;
+  border: 1px solid #63402c;
+  color: #63402c;
+  box-shadow: 0 5px 10px 0 #d0d0ce;
+}
+hr{
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.form-group {
+  overflow: hidden;
+  clear: both;
+}
+.leftcontact {
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  background-image: url("./login.jpg");
+  background-position: center;
+  
+}
+.rightcontact {
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  padding: 0 10px;
+
+}
+.vtu {
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+  border-bottom-right-radius: 9px;
+  margin-top: 50px;
+  padding-top: 2px;
+  cursor: pointer;
+  color:#63402c;
+
+}
+.mini {
+  width: 20%;
+  border: 1px solid #cccc;
+  float: left;
+}
+.ikj{
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 10px 30px 0 rgba(172, 168, 168, 0.43);
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  margin-top: 150px;
+  padding-top: 6px;
+  color:#63402c;
+  cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}

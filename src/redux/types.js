@@ -1,0 +1,10 @@
+export const SET_BILL_FORM = "SET_BILL_FORM"
+export const SET_PAYMENT_FORM = "SET_PAYMENT_FORM"
+export const SET_VERIFICATION_FORM = "SET_VERIFICATION_FORM"
+export const SET_HOME = "SET_HOME"
+export const SET_BILL_DATA = "SET_BILL_DATA"
+export const SET_TXREF = "SET_TXREF"
+export const SET_ERROR = "SET_ERROR"
+export const VERIFY_BILL = "VERIFY_BILL"
+export const PAY_BILL = "PAY_BILL"
+
