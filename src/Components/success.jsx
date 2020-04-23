@@ -46,7 +46,7 @@ const Main = ({billForm,paymentForm,verificationForm,home,error,location,payBill
                  </div>    
                  <div className="rightcontact">
                      <Online>
-                        <h1>Your Bill Has Piad Made Successfully</h1>
+                        <h1>Your Bill Has Been Piad Made Successfully</h1>
                      </Online>
                      <Offline>
                          <h1>No INternet Connection</h1>
