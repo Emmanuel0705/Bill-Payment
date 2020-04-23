@@ -10,7 +10,7 @@ return (
             <h3>Bill Payment</h3>
         </div>
         <div className="vtu">
-          <h3>Bill Payment</h3>
+          <h3>Buy Airtime</h3>
         </div>
     </div>
 ) 

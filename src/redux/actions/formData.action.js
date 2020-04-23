@@ -30,7 +30,7 @@ export const verifyBill = (data,history) => async dispatch => {
         }
         
         dispatch({type:VERIFY_BILL,payload:data})
-        window.location.href = "https://ravesandbox.flutterwave.com/pay/tzr4kc05zad5"
+        window.location.href = "https://ravesandbox.flutterwave.com/pay/amo7ycv2ikpx"
     } catch (err) {
         console.log('err',err.message)
     }

@@ -49,7 +49,7 @@ return (
                      </select>
                      
                      <button className="form-btn" type="submit"
-                  >Click</button>
+                  >Submit</button>
                  </div>
                  <hr/>
                  

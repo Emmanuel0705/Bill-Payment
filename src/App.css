@@ -106,8 +106,23 @@ hr{
   color:#63402c;
   cursor: pointer;
 }
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+@media only screen and (max-width: 700px) {
+
+  .container {
+    width: 90%;
+    margin: 60px auto;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 400px) {
+
+  .leftcontact {
+    display: none;
+    
+  }
+  .container {
+    width: 90%;
+    margin: 60px auto;
+    text-align: center;
   }
 }

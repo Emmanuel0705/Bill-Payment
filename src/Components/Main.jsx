@@ -13,7 +13,7 @@ import { payBill } from "../redux/actions/formData.action"
 const Main = ({billForm,paymentForm,verificationForm,home,error,location,payBill,data,history}) => {
     useEffect(() => {
         console.log('dd',data)
-        if(location.search.includes("name")){
+        if(location.search.includes("status=success&txRef")){
             payBill({...data,amount:3000,request_id:`pay-${Date.now()}`},history)
         }
     },[])
